@@ -4,7 +4,6 @@ body {
 
 h1 {
   color: #ccc;
-  weight: 400;
 }
 
 figure {
@@ -20,5 +19,25 @@ figure {
 
 img {
   max-width: 100%;
+}
+
+.bird-box {
+  position: relative;
+  height: 600px;
+  background-image: url(../images/1img.png);
+  background-size: auto 600px;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
 }
 /*# sourceMappingURL=layout1.css.map */
