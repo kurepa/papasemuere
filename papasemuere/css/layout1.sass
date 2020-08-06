@@ -26,21 +26,26 @@ img
 .bird-box
   position: relative
   height: 600px
+  max-width: 100%
   background:
     image: url(../images/1img.png)
-    size: auto 600px
+    size: contain
     position: top center
     attachment: fixed
     repeat: no-repeat
+  overflow: hidden
 
-.titulo
+.logo
   height: 100px
-  width: 100px
+  width: 100%
   background:
-    color: pink
-  color: yellow
+    image: url(/images/titulo.svg)
+    position: center
+    repeat: no-repeat
   position: absolute
   top: 50%
   margin-top: -50px
+
+
  
 
