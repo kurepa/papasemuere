@@ -1,9 +1,9 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Courier", sans-serif;
 }
 
 h1 {
-  color: #ccc;
+  color: #615d5d;
 }
 
 figure {
@@ -11,7 +11,7 @@ figure {
 }
 
 .content article {
-  padding: 200px 0;
+  padding: 200px;
   max-width: 640px;
   margin: 0 auto;
   text-align: center;
@@ -30,6 +30,7 @@ img {
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .logo {
@@ -41,5 +42,53 @@ img {
   position: absolute;
   top: 50%;
   margin-top: -50px;
+}
+
+.diapos figure {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.diapos figure.is-showing {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.diapos2 figure {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.diapos2 figure.is-showing {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.diapos3 figure {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.diapos3 figure.is-showing {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 /*# sourceMappingURL=layout1.css.map */

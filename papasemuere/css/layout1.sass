@@ -1,17 +1,17 @@
 // Base Styles
 
 body
-  font-family: "Open Sans", sans-serif
+  font-family: "Courier", sans-serif
 
 h1
-  color: #ccc
+  color: #615d5d
 
 figure
   margin: auto
 
 .content
   article
-    padding: 200px 0
+    padding: 200px 
     max-width: 640px
     margin: 0 auto
     text-align: center
@@ -39,13 +39,51 @@ img
   height: 100px
   width: 100%
   background:
-    image: url(/images/titulo.svg)
+    image: url(../images/titulo.svg)
     position: center
     repeat: no-repeat
   position: absolute
   top: 50%
   margin-top: -50px
 
+// Diapos Grid
 
- 
+.diapos
 
+    figure
+      margin-bottom: 20px
+      position: relative
+      opacity: 0
+      transform: translateX(-20px)
+      transition: all 0.5s ease-in-out
+
+      &.is-showing
+        opacity: 1
+        transform: translateX(0px)
+
+
+.diapos2
+
+    figure
+      margin-bottom: 20px
+      position: relative
+      opacity: 0
+      transform: translateY(100px)
+      transition: all 0.5s ease-in-out
+
+      &.is-showing
+        opacity: 1
+        transform: translateY(0px)
+
+.diapos3
+
+    figure
+      margin-bottom: 20px
+      position: relative
+      opacity: 0
+      transform: translateX(20px)
+      transition: all 0.5s ease-in-out
+
+      &.is-showing
+        opacity: 1
+        transform: translateX(0px)
