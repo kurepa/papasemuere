@@ -2,8 +2,8 @@
 
 # Cuento Digital #
 
-# Texto: Gastón González Falco
+ Texto: Gastón González Falco
 
-# Montaje: Lucía Porcel
+ Montaje: Lucía Porcel
 
-# Archivo: Jorge NN
+ Archivo: Jorge NN
