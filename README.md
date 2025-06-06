@@ -2,6 +2,7 @@
 
 Parallax storytelling de papá se muere (JORGE)
 
+
 ## Asset notes
 
 The folder `papasemuere/images/` contains all graphics used by the page.
@@ -18,3 +19,4 @@ be useful when extending the layout.
 The video `papa se muere.mp4` is likewise unused at the moment. It is
 provided for a potential video version or as a background clip in later
 iterations.
+
