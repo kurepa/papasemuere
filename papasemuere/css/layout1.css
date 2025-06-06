@@ -91,4 +91,10 @@ img {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
 }
+.story-text {
+  margin: 20px 0;
+  color: #615d5d;
+  line-height: 1.4;
+}
+
 /*# sourceMappingURL=layout1.css.map */
